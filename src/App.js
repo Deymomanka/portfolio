@@ -46,12 +46,12 @@ export default function App() {
           <NavBar />
           <Box component="main" sx={{ flex: 1 }}>
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/portfolio" element={<Home />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/blogs" element={<Blogs />} />
               <Route path="/skills" element={<Skills />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="*" element={<Navigate to="/" replace />} />
+              <Route path="*" element={<Navigate to="/portfolio" replace />} />
             </Routes>
           </Box>
           <Footer />
