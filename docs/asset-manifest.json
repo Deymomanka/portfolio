@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.js": "/portfolio/static/js/main.8c223a0e.js",
+    "static/media/fastapi_sklearn.png": "/portfolio/static/media/fastapi_sklearn.0bfaec4cff582eb26751.png",
+    "static/media/bigqueryml.png": "/portfolio/static/media/bigqueryml.2b480dd5b146dfdaf3f0.png",
+    "static/media/linegoogleocrt.png": "/portfolio/static/media/linegoogleocrt.6789ef4acff08e9d9b7e.png",
+    "static/media/pythonxopencv.png": "/portfolio/static/media/pythonxopencv.bae8f16e7ee0cce5c8ec.png",
+    "static/media/dataenlogo.png": "/portfolio/static/media/dataenlogo.a42e33dbda0114b10f18.png",
+    "static/media/pythonrelateanalysis.png": "/portfolio/static/media/pythonrelateanalysis.cb86408786cee088ca38.png",
+    "index.html": "/portfolio/index.html",
+    "main.8c223a0e.js.map": "/portfolio/static/js/main.8c223a0e.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.8c223a0e.js"
+  ]
+}
