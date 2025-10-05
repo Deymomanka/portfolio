@@ -25,9 +25,9 @@ export default function Home() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Person',
-    name: 'Rodrigo Arenas',
+    name: 'Yuliya',
     url: canonical,
-    jobTitle: titles?.[0] || 'Data Scientist',
+    jobTitle: titles?.[0] || 'Data Nerd',
   };
 
   // greeting may be a JSX node (from config) or a string; handle both
@@ -37,11 +37,11 @@ export default function Home() {
   return (
     <section>
       <Seo
-        title={lang === 'es' ? 'Rodrigo Arenas — Científico de Datos & Consultor' : 'Rodrigo Arenas — Data Scientist & Consultant'}
+        title={lang === 'jp' ? 'ユリアのポートフォリオ' : 'Yuliya`s portfolio'}
         description={
-          lang === 'es'
-            ? 'Consultoría en ML y datos: LLMs, RAG, AutoML, analítica en Azure. Proyectos, artículos y experiencia.'
-            : 'ML & data consulting: LLMs, RAG, AutoML, analytics on Azure. Selected projects, writing, and experience.'
+          lang === 'jp'
+            ? '東京在住のデータエンジニア'
+            : 'Data Engineer based in Tokyo, Japan'
         }
         canonical={canonical}
         jsonLd={jsonLd}
