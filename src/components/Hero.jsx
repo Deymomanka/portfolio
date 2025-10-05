@@ -111,10 +111,10 @@ export default function Hero() {
             {/* <Button href={mailHref} variant="contained" color="secondary" size="large" aria-label={t.ctaPrimary}>
               {t.ctaPrimary}
             </Button> */}
-            <Button href="/contact" variant="contained" color="secondary" size="large" aria-label={t.ctaPrimary}>
+            <Button href="/portfolio/contact" variant="contained" color="secondary" size="large" aria-label={t.ctaPrimary}>
               {t.ctaPrimary}
             </Button>
-            <Button component="a" href="/projects" variant="outlined" size="large" sx={{ color: '#fff', borderColor: 'rgba(255,255,255,.5)' }}>
+            <Button component="a" href="/portfolio/projects" variant="outlined" size="large" sx={{ color: '#fff', borderColor: 'rgba(255,255,255,.5)' }}>
               {t.ctaSecondary}
             </Button>
           </Stack>

@@ -46,7 +46,7 @@ export default function Footer() {
         <Stack direction="row" spacing={2} justifyContent="center" sx={{ mb: 3 }}>
           <Button
             //href={emailHref}
-            href="/contact"
+            href="/portfolio/contact"
             variant="contained"
             color="secondary"
             aria-label={t.cta}
@@ -54,7 +54,7 @@ export default function Footer() {
             {t.cta}
           </Button>
           <Button
-            href="/projects"
+            href="/portfolio/projects"
             variant="outlined"
             sx={{ color: '#fff', borderColor: 'rgba(255,255,255,.4)' }}
           >

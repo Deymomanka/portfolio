@@ -297,11 +297,11 @@ export default function Blogs() {
             {t.stripQ}
           </Typography>
           <Stack direction="row" spacing={1}>
-            <Button size="small" variant="contained" color="secondary" href="/projects">
+            <Button size="small" variant="contained" color="secondary" href="/portfolio/projects">
               {t.stripSee}
             </Button>
             {/* <Button size="small" variant="outlined" href={withUtm(EMAIL ? `mailto:${EMAIL}` : '#', 'blogs_inline_cta')}> */}
-            <Button size="small" variant="outlined" href="/contact">
+            <Button size="small" variant="outlined" href="/portfolio/contact">
               {t.stripTalk}
             </Button>
           </Stack>
