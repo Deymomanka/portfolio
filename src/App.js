@@ -41,17 +41,17 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-        <Router>
+        <Router basename="/portfolio">
           <AnalyticsTracker />
           <NavBar />
           <Box component="main" sx={{ flex: 1 }}>
             <Routes>
-              <Route path="/portfolio" element={<Home />} />
+              <Route path="/" element={<Home />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/blogs" element={<Blogs />} />
               <Route path="/skills" element={<Skills />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="*" element={<Navigate to="/portfolio" replace />} />
+              <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </Box>
           <Footer />
