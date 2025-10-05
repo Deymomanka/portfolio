@@ -8,6 +8,7 @@
     "@emotion/styled": "11.14.1",
     "@fontsource-variable/inter": "^5.2.6",
     "@fontsource/jetbrains-mono": "^5.2.6",
+    "@formspree/react": "^3.0.0",
     "@mui/icons-material": "6.5.0",
     "@mui/lab": "6.0.0-beta.8",
     "@mui/material": "6.5.0",
