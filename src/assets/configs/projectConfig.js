@@ -1,78 +1,79 @@
 import { BiGitRepoForked } from "react-icons/bi";
 import { AiFillGithub, AiFillEye } from "react-icons/ai";
-import { ImBook } from "react-icons/im";
+import { SiStreamlit } from "react-icons/si";
 
-import sklearnGenetic from "../images/sklearn_genetic_opt.png";
-import kafkaMl from "../images/kafkaml.png";
-import portfolio from "../images/portfolio.png";
+import linegoogleocrt from "../images/linegoogleocrt.png";
+import pythonxopencv from "../images/pythonxopencv.png";
+import bigqueryml from "../images/bigqueryml.png";
+import pythonrelateanalysis from "../images/pythonrelateanalysis.png";
 
 import React from 'react';
 
 const projectConfig = [
   {
     id: "project-5",
-    title: "Sklearn Genetic Opt",
-    category: { en: "Library", es: "Librería" },
+    title: "LineBot × Google OCR",
+    category: { en: "Library", jp: "ツール開発" },
     description_i18n: {
-      en: "Hyperparameter tuning & feature selection for scikit‑learn using evolutionary algorithms.",
-      es: "Ajuste de hiperparámetros y selección de variables para scikit‑learn con algoritmos evolutivos."
+      en: "Business Card Information Registration Tool using LineBot × Google OCR × Python",
+      jp: "LineBot × Google OCR × Pythonを用いた名刺情報登録ツール"
     },
     links: [
-      { name: "repo", url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt", icon: <AiFillGithub/> },
-      { name: "fork", url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt/fork", icon: <BiGitRepoForked/> },
-      { name: "subscription", url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt/subscription", icon: <AiFillEye/> },
-      { name: "docs", url: "https://sklearn-genetic-opt.readthedocs.io/en/stable/", icon: <ImBook/> }
+      { name: "repo", url: "https://github.com/Deymomanka/business-card-bot", icon: <AiFillGithub/> },
+      { name: "fork", url: "https://github.com/Deymomanka/business-card-bot/fork", icon: <BiGitRepoForked/> },
+      { name: "subscription", url: "https://github.com/Deymomanka/business-card-bot/subscription", icon: <AiFillEye/> },
+     // { name: "docs", url: "https://sklearn-genetic-opt.readthedocs.io/en/stable/", icon: <ImBook/> }
     ],
-    image: sklearnGenetic,
+    image: linegoogleocrt,
     target: "_blank"
   },
   {
     id: "project-3",
-    title: "Kafkaml Anomalies",
-    category: { en: "System", es: "Sistema" },
+    title: "Face Recognition",
+    category: { en: "System", jp: "業務管理" },
     description_i18n: {
-      en: "Real‑time anomaly detection on Kafka streams with Python.",
-      es: "Detección de anomalías en tiempo real sobre flujos de Kafka con Python."
+      en: "Face Recognition Attendance System using Python",
+      jp: "Pythonを用いた顔認証による出退勤の打刻ツール"
     },
     links: [
       { name: "repo", url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection", icon: <AiFillGithub/> },
       { name: "fork", url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection/fork", icon: <BiGitRepoForked/> },
       { name: "subscription", url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection/subscription", icon: <AiFillEye/> }
     ],
-    image: kafkaMl,
+    image: pythonxopencv,
     target: "_blank"
   },
   {
     id: "project-2",
-    title: "Pyworkforce",
-    category: { en: "Library", es: "Librería" },
+    title: "BigQuery × ML",
+    category: { en: "Machine Learning", jp: "機械学習" },
     description_i18n: {
-      en: "Standard tools for WFM: queuing, scheduling, rostering, and optimization.",
-      es: "Herramientas estándar para WFM: colas, programación, turnos y optimización."
+      en: "Comparative Analysis of ML Models using BigQuery ML",
+      jp: "BigQuery × ML モデル比較プロジェクト"
     },
     links: [
-      { name: "repo", url: "https://github.com/rodrigo-arenas/pyworkforce", icon: <AiFillGithub/> },
-      { name: "fork", url: "https://github.com/rodrigo-arenas/pyworkforce/fork", icon: <BiGitRepoForked/> },
-      { name: "subscription", url: "https://github.com/rodrigo-arenas/pyworkforce/subscription", icon: <AiFillEye/> },
-      { name: "docs", url: "https://pyworkforce.readthedocs.io/en/stable/", icon: <ImBook/> }
+      { name: "repo", url: "https://github.com/Deymomanka/iowa-sales-project", icon: <AiFillGithub/> },
+      { name: "fork", url: "https://github.com/Deymomanka/iowa-sales-project/fork", icon: <BiGitRepoForked/> },
+      { name: "subscription", url: "https://github.com/Deymomanka/iowa-sales-project/subscription", icon: <AiFillEye/> },
+      { name: "streamlit", url: "https://iowa-sales-project.streamlit.app/", icon: <SiStreamlit/> }
     ],
-    image: "https://miro.medium.com/max/1400/1*UDnhOFK35IbAPx15wkMgVg.jpeg",
+    image: bigqueryml,
     target: "_blank"
   },
   {
     id: "project-1",
-    title: "Portfolio Web",
-    category: { en: "Website", es: "Sitio web" },
+    title: "Data Analysis",
+    category: {   en: "Data Analysis & Web Scraping", jp: "データ分析 & スクレイピング" },
     description_i18n: {
-      en: "Source code for my personal portfolio website.",
-      es: "Código fuente de mi sitio web personal de portafolio."
+      en: "Analysis of Demand Trends for Python-Related Technologies in Japan",
+      jp: "Python関連技術の需要動向分析"
     },
     links: [
-      { name: "repo", url: "https://github.com/rodrigo-arenas/portfolio", icon: <AiFillGithub/> },
-      { name: "fork", url: "https://github.com/rodrigo-arenas/portfolio/fork", icon: <BiGitRepoForked/> },
-      { name: "subscription", url: "https://github.com/rodrigo-arenas/portfolio/subscription", icon: <AiFillEye/> }
+      { name: "repo", url: "https://github.com/Deymomanka/python-relate-analysis", icon: <AiFillGithub/> },
+      { name: "fork", url: "https://github.com/Deymomanka/python-relate-analysis/fork", icon: <BiGitRepoForked/> },
+      { name: "subscription", url: "https://github.com/Deymomanka/python-relate-analysis/subscription", icon: <AiFillEye/> }
     ],
-    image: portfolio,
+    image: pythonrelateanalysis,
     target: "_blank"
   }
 ];

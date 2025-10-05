@@ -1,55 +1,55 @@
 import React from "react";
-import { BsClipboardData } from "react-icons/bs";
-import { DiCodeigniter } from "react-icons/di";
+import { FaUniversity } from "react-icons/fa";
 import { GiCommercialAirplane } from "react-icons/gi";
-import { FaMobileAlt } from "react-icons/fa";
+import { TbReportAnalytics } from "react-icons/tb";
+import { FaComputer } from "react-icons/fa6";
 import { BiRocket } from "react-icons/bi";
 
 const homeConfig = {
   greeting_i18n: {
     en: (
       <h1 className="heading">
-        Hi! I'm <strong className="main-name"> Rodrigo Arenas</strong>
+        Hi! I'm <strong className="main-name"> Yuliya</strong>
       </h1>
     ),
-    es: (
+    jp: (
       <h1 className="heading">
-        ¡Hola! Soy <strong className="main-name"> Rodrigo Arenas</strong>
+        こんにちは！<strong className="main-name"> ユリアのポートフォリオ</strong> へようこそ！
       </h1>
     ),
   },
 
   titles_i18n: {
     en: [
-      "ML engineer",
-      "Open Source Contributor",
-      "Backend Developer",
-      "Data Scientist",
-      "Machine Learning Specialist",
-      "Colombian",
+      "Python Engineer",
+      "Aspiring Data Scientist",
+      "Data Enthusiast",
+      "Data Engineer",
+      "ML Prediction Model Builder",
+      "Belarusian",
     ],
-    es: [
-      "Científico de Datos",
-      "Especialista en Aprendizaje Automático",
-      "Colaborador de Código Abierto",
-      "Desarrollador Backend",
-      "Ingeniero de ML",
-      "Colombiano",
+    jp: [
+      "Python エンジニア",
+      "データサイエンティストの卵",
+      "データ好き",
+      "データエンジニア",
+      "機械学習の予測モデル開発者",
+      "ベラルーシ出身",
     ],
   },
 
   about_i18n: {
     en: {
       start:
-        "I've been working for over nine years on data science projects. I'm excited by learning new things, contributing to the data science community, and spreading the word of data!",
+        "With a strong passion for the world of data, I am pursuing a career as a Data Scientist while working as a Data Analyst at a Japanese IT company.",
       exit:
-        "I'm fluent at Python, SQL databases, BI tools, and more, with a deep interest in machine learning.",
+        "I am engaged in data analysis projects leveraging the Modern Data Stack, building analytical infrastructures, and developing tools using Python.",
     },
-    es: {
+    jp: {
       start:
-        "He trabajado por más de nueve años en proyectos de ciencia de datos. Me entusiasma aprender cosas nuevas, contribuir a la comunidad y compartir conocimiento.",
+        "データの世界に情熱を注ぎ、データサイエンティストを目指しながら、日本のIT企業でデータアナリストとして活動しています。",
       exit:
-        "Domino Python, bases de datos SQL, herramientas de BI y más, con un fuerte interés en el aprendizaje automático.",
+        "Modern Data Stackを活用したデータ分析プロジェクトや分析基盤の構築、さらにPythonを用いたツール開発に取り組んでいます。",
     },
   },
 
@@ -57,68 +57,68 @@ const homeConfig = {
   workTimeline: [
     {
       id: "work-4",
-      title: "Sr ML Engineer",
-      title_i18n: { en: "Sr ML Engineer", es: "Sr ML Engineer" },
-      company: "EPAM",
+      title: "Data Analyst / Data Engineer",
+      title_i18n: { en: "Data Analyst / Data Engineer", jp: "データアナリスト／データエンジニア" },
+      company: "Japan, Tokyo",
       description_i18n: {
-        en: "Working to build scalable ML solutions, LLMs, and RAG architectures.",
-        es: "Construyo soluciones de ML escalables, LLMs y arquitecturas RAG.",
+        en: "Working on portfolio projects using Python, SQL, BigQuery, and Modern Data Stack (dbt, Looker Studio). Focused on building pipelines, ML models, and dashboards.",
+        jp: "Python、SQL、BigQuery、Modern Data Stack（dbt、Looker Studio）を用いたポートフォリオ開発に取り組み、データ分析基盤構築、機械学習モデル、ダッシュボードを構築。",
       },
-      date: "2023-Present",
+      date: "2025-Present",
       icon: <BiRocket />,
-      tags: ["ml", "mlops", "python", "azure", "llm", "automl"],
+      tags: ["python", "sql", "google cloud", "dbt", "tableau", "looker", "docker"],
     },
     {
       id: "work-3",
-      title: "Sr Data Scientist",
-      title_i18n: { en: "Sr Data Scientist", es: "Sr Data Scientist" },
-      company: "Globant",
+      title: "Kaggle & SIGNATE Competitions",
+      title_i18n: { en: "Kaggle & SIGNATE Competitions", jp: "Kaggle & SIGNATE コンペティション" },
+      company: "Japan, Osaka/Shiga",
       description_i18n: {
-        en: "Built AutoML models and made them available to non-technical users from a graphical interface.",
-        es: "Construí modelos AutoML y los hice accesibles para usuarios no técnicos desde una interfaz gráfica.",
+        en: "Developed predictive models with Python for various competitions, earning a bronze medals. Focused on improving speed and accuracy of ML models.",
+        jp: "Pythonで予測モデルを構築し、複数のコンペに参加して銅メダルを獲得。高速かつ精度の高いモデル構築に注力。",
       },
-      date: "2021-2023",
-      icon: <DiCodeigniter />,
-      tags: ["ml", "automl", "python", "docker", "redshift", "superset"],
+      date: "2023-2024",
+      icon: <FaComputer />,
+      tags: ["ml", "automl", "python", "statistics", "anaconda", "pandas", "numpy"],
     },
     {
       id: "work-2",
-      title: "BI Manager",
-      title_i18n: { en: "BI Manager", es: "BI Manager" },
-      company: "Rappi",
+      title: "Social Enterprise",
+      title_i18n: { en: "Social Enterprise", jp: "ソーシャルエンタープライズ" },
+      company: "Japan, Osaka/Shiga",
       description_i18n: {
-        en: "Led a team of analysts and data scientists delivering ETLs, data lakes/warehouses, and ML models.",
-        es: "Lideré un equipo de analistas y científicos de datos para ejecutar proyectos de ETLs, data lakes/warehouses y modelos de ML.",
+        en: "Planned and led a social enterprise project to support Ukraine. Conducted customer surveys, performed data preprocessing and visualization in Python, and applied findings to product planning and sales strategies. Managed OEM production and sales operations, promoting data-driven decision making.",
+        jp: "ウクライナ支援を目的としたソーシャルエンタープライズを企画・主導。顧客アンケート調査を実施し、Pythonでデータ前処理と可視化を行い、その結果を商品企画や販売施策に活用。OEM発注や販売管理まで担当し、データに基づく意思決定を推進。",
       },
-      date: "2019-2021",
-      icon: <FaMobileAlt />,
-      tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"],
+      date: "2022-2023",
+      icon: <TbReportAnalytics />,
+      tags: ["teamwork", "problem-solving", "adaptability to change", "analytical skills", "self-management skills", "presentation skills"],
     },
     {
       id: "work-1",
-      title: "CRM Analytics Coordinator",
-      title_i18n: { en: "CRM Analytics Coordinator", es: "Coordinador de Analítica CRM" },
-      company: "Avianca",
+      title: "MEXT Scholarship Student",
+      title_i18n: { en: "MEXT Scholarship Student", jp: "文部科学省国費外国人留学生" },
+      company: "Japan, Osaka/Shiga",
       description_i18n: {
-        en: "Tech lead for BI, Data Science and DBA team. Built forecasting models, a data warehouse and Power BI dashboards.",
-        es: "Líder técnico de un equipo de BI, Ciencia de Datos y DBAs. Construí modelos de pronóstico, data warehouses y tableros en Power BI.",
+        en: "Completed one year at a Japanese language school, two years at a vocational school of international business, and transferred into the third year of the Faculty of Economics (Finance) at a national university.",
+        jp: "１年間日本語学校、２年間国際ビジネス専門学校で学び、国立大学経済学部ファイナンス学科に３年次編入。",
       },
-      date: "2018-2019",
+      date: "2020-2025",
       icon: <GiCommercialAirplane />,
-      tags: ["ml", "mssql", "python", "docker", "pbi", "azure"],
+      tags: ["japanese skills", "international communication", "self-management skills", "time management"],
     },
     {
       id: "work-0",
-      title: "BI Analyst",
-      title_i18n: { en: "BI Analyst", es: "Analista de BI" },
-      company: "Onelink BPO",
+      title: "Belarusian State Economic University",
+      title_i18n: { en: "Belarusian State Economic University", jp: "ベラルーシ国立経済大学" },
+      company: "Belarus, Minsk",
       description_i18n: {
-        en: "Built interactive dashboards, ETLs and SQL queries to show company KPIs.",
-        es: "Construí tableros interactivos, ETLs y consultas SQL para mostrar los KPIs de la compañía.",
+        en: "Graduated with a bachelor's degree in Hospitality and Restaurant Management.",
+        jp: "ホテル&レストラン経営学科で学士号を取得。",
       },
-      date: "2016-2018",
-      icon: <BsClipboardData />,
-      tags: ["python", "mssql", "pbi", "excel"],
+      date: "2013-2017",
+      icon: <FaUniversity />,
+      tags: ["hotel management", "reporting", "writing", "presentation skills"],
     },
   ],
 };

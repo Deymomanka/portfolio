@@ -32,7 +32,7 @@ export default function Home() {
 
   // greeting may be a JSX node (from config) or a string; handle both
   const greetingNode = homeConfig.greeting_i18n?.[lang] || homeConfig.greeting;
-  const ExperienceLabel = lang === 'es' ? 'Experiencia' : 'Experience';
+  const ExperienceLabel = lang === 'jp' ? '略歴' : 'Profile';
 
   return (
     <section>

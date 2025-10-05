@@ -6,18 +6,18 @@ import { withUtm } from '../../utils/withUtm';
 
 const COPY = {
   en: {
-    headline: "Let’s build something that ships",
-    sub: "Strategy, prototypes, and production ML in weeks — not quarters.",
-    cta: "Book a Call",
-    projects: "View Projects",
+    headline: "Keep Exploring with Data",
+    sub: "From learning and experiments to building real projects with Python and SQL.",
+    cta: "Contact Me",
+    projects: "See Projects",
     subject: "Consulting Inquiry",
   },
-  es: {
-    headline: "Construyamos algo que salga a producción",
-    sub: "Estrategia, prototipos y ML en producción en semanas — no trimestres.",
-    cta: "Agendar llamada",
-    projects: "Ver proyectos",
-    subject: "Consulta de consultoría",
+  jp: {
+    headline: "データとともに探求を続ける",
+    sub: "PythonやSQLを使った学習・実験から、実際のプロジェクト構築まで。",
+    cta: "気軽に連絡する",
+    projects: "プロジェクト一覧",
+    subject: "コンサルティングの問い合わせ",
   },
 };
 
@@ -45,7 +45,8 @@ export default function Footer() {
         </Typography>
         <Stack direction="row" spacing={2} justifyContent="center" sx={{ mb: 3 }}>
           <Button
-            href={emailHref}
+            //href={emailHref}
+            href="/contact"
             variant="contained"
             color="secondary"
             aria-label={t.cta}

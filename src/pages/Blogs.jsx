@@ -27,38 +27,38 @@ import { useLang } from '../utils/i18n';
 
 const UI = {
   en: {
-    seoTitle: 'Writing & Insights — Rodrigo Arenas',
-    seoDesc: 'Notes, articles, and insights on data science, ML, and entrepreneurship.',
+    seoTitle: 'Writing & Insights — Yuliya',
+    seoDesc: 'Notes, articles, and insights on MDS, ML, Python, SQL etc.',
     overline: 'Blog',
     title: 'Writing & Insights',
-    desc: 'Deep dives and quick notes on ML, data systems, and building products.',
+    desc: 'Deep dives and quick notes on MDS, ML, Python, SQL etc.',
     searchPlaceholder: 'Search posts',
     sortRecent: 'Most Recent',
     sortAZ: 'Title (A → Z)',
     ctaRead: 'Read',
     featured: 'Featured',
-    stripQ: 'Looking to ship ML to production?',
+    stripQ: 'Interested in data projects or analysis?',
     stripSee: 'See projects',
-    stripTalk: "Let's talk",
+    stripTalk: "Contact me",
     new: 'New',
     mins: (m) => `${m} min`,
   },
-  es: {
-    seoTitle: 'Escritura & Notas — Rodrigo Arenas',
-    seoDesc: 'Notas, artículos e ideas sobre ciencia de datos, ML y emprendimiento.',
-    overline: 'Blog',
-    title: 'Artículos y notas',
-    desc: 'Análisis profundos y notas rápidas sobre ML, sistemas de datos y creación de productos.',
-    searchPlaceholder: 'Buscar artículos',
-    sortRecent: 'Más recientes',
-    sortAZ: 'Título (A → Z)',
-    ctaRead: 'Leer',
-    featured: 'Destacados',
-    stripQ: '¿Buscas implementar ML en producción?',
-    stripSee: 'Ver proyectos',
-    stripTalk: 'Hablemos',
-    new: 'Nuevo',
-    mins: (m) => `${m} min`,
+  jp: {
+    seoTitle: 'ライティング & 洞察 — Yuliya',
+    seoDesc: 'MDS、ML、Python、SQLなどに関するノート、記事、洞察。',
+    overline: 'ブログ',
+    title: 'ライティング & 洞察',
+    desc: 'MDS、ML、Python、SQLなどに関するノート、記事、洞察。',
+    searchPlaceholder: '投稿を検索',
+    sortRecent: '最新',
+    sortAZ: 'タイトル (A → Z)',
+    ctaRead: '読む',
+    featured: '注目',
+    stripQ: 'データ分析やプロジェクトにご興味がありますか？',
+    stripSee: 'プロジェクト一覧',
+    stripTalk: "気軽に連絡する",
+    new: '新着',
+    mins: (m) => `${m} 分`,
   },
 };
 
@@ -300,7 +300,8 @@ export default function Blogs() {
             <Button size="small" variant="contained" color="secondary" href="/projects">
               {t.stripSee}
             </Button>
-            <Button size="small" variant="outlined" href={withUtm(EMAIL ? `mailto:${EMAIL}` : '#', 'blogs_inline_cta')}>
+            {/* <Button size="small" variant="outlined" href={withUtm(EMAIL ? `mailto:${EMAIL}` : '#', 'blogs_inline_cta')}> */}
+            <Button size="small" variant="outlined" href="/contact">
               {t.stripTalk}
             </Button>
           </Stack>

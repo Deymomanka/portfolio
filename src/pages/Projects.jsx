@@ -32,23 +32,23 @@ const UI = {
     overline: 'Selected Work',
     title: 'Projects',
     desc:
-      'A curated collection spanning production-grade libraries, data systems, and this website. Filter, search, and explore.',
+      'A curated collection including data analysis and predictive models, development of automation tools, and business management tools. Filter, search, and explore.',
     searchPlaceholder: 'Search projects',
     sortRecent: 'Recent',
     sortAZ: 'A → Z',
     ctaView: 'View',
   },
-  es: {
-    seoTitle: 'Proyectos | Rodrigo Arenas',
-    seoDesc: 'Librerías open-source, sistemas y proyectos reales de Rodrigo Arenas.',
-    overline: 'Trabajo destacado',
-    title: 'Proyectos',
+  jp: {
+    seoTitle: 'プロジェクト | Yuliya',
+    seoDesc: 'Yuliyaによるオープンソースライブラリ、システム、実世界のプロジェクト。',
+    overline: '選抜作品',
+    title: 'プロジェクト',
     desc:
-      'Una colección curada que abarca librerías, modelos de ML y este sitio web. Filtra, busca y explora.',
-    searchPlaceholder: 'Buscar proyectos',
-    sortRecent: 'Recientes',
+      'データ分析や予測モデル、自動化ツールの開発や業務管理ツールの開発などを含む厳選されたコレクション。フィルタリング、検索、探索してください。',
+    searchPlaceholder: 'プロジェクトを検索',
+    sortRecent: '最新',
     sortAZ: 'A → Z',
-    ctaView: 'Ver',
+    ctaView: '表示',
   },
 };
 

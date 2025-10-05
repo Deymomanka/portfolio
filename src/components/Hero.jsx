@@ -1,39 +1,39 @@
 import React from 'react';
 import { Box, Button, Chip, Container, Stack, Typography } from '@mui/material';
-import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
+import CodeIcon from '@mui/icons-material/Code';  
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
-import SecurityIcon from '@mui/icons-material/Security';
+import AnalyticsIcon from '@mui/icons-material/Analytics';
 import { useLang } from '../utils/i18n';
 import { withUtm } from '../utils/withUtm';
 
 const UI = {
   en: {
-    h1_a: 'Ship ',
-    h1_b: 'Production ML ',
-    h1_c: 'Faster',
-    sub: 'I design and deploy ML that moves KPIs: LLM assistants, RAG search, AutoML pipelines, and analytics on Azure — from prototype to production.',
+    h1_a: '',
+    h1_b: 'Exploring Data ',
+    h1_c: 'Step by step',
+    sub: '— from building pipelines and dashboards to developing ML models. \nA portfolio of projects powered by Python, SQL, and the Modern Data Stack.',
     bullets: [
-      { icon: <RocketLaunchIcon />, label: 'Weeks, not quarters' },
-      { icon: <AutoAwesomeIcon />, label: 'LLMs, RAG, AutoML' },
-      { icon: <SecurityIcon />, label: 'Battle‑tested in production' },
+      { icon:<CodeIcon />, label: 'Python × SQL × ML' },
+      { icon: <AutoAwesomeIcon />, label: 'Modern Data Stack' },
+      { icon: <AnalyticsIcon />, label: 'Analytics & Automation' },
     ],
-    ctaPrimary: 'Book a Free Intro Call',
+    ctaPrimary: 'Contact Me',
     ctaSecondary: 'See Projects',
     subject: 'Consulting Inquiry',
     seenIn: 'Experience at',
   },
-  es: {
-    h1_a: 'Lleva ',
-    h1_b: 'ML a producción ',
-    h1_c: 'más rápido',
-    sub: 'Diseño e implemento ML que mueve KPIs: asistentes con LLMs, búsqueda RAG, pipelines de AutoML y analítica en Azure — del prototipo a producción.',
+  jp: {
+    h1_a: '',
+    h1_b: 'データの世界を',
+    h1_c: '一歩ずつ探求中',
+    sub: 'データ分析基盤構築から、機械学習モデルの開発まで。\nPython・SQL・Modern Data Stackを活用したプロジェクトを紹介します。',
     bullets: [
-      { icon: <RocketLaunchIcon />, label: 'Semanas, no trimestres' },
-      { icon: <AutoAwesomeIcon />, label: 'LLMs, RAG, AutoML' },
-      { icon: <SecurityIcon />, label: 'Probado en producción' },
+      { icon: <CodeIcon />, label: 'Python × SQL × ML' },
+      { icon: <AutoAwesomeIcon />, label: 'モダンデータスタック' },
+      { icon: <AnalyticsIcon />, label: '分析と自動化' },
     ],
-    ctaPrimary: 'Agendar llamada',
-    ctaSecondary: 'Ver proyectos',
+    ctaPrimary: '気軽に連絡する',
+    ctaSecondary: 'プロジェクト一覧',
     subject: 'Consulta de consultoría',
     seenIn: 'Experiencia en',
   },
@@ -90,7 +90,7 @@ export default function Hero() {
           </Typography>
 
           {/* Subheadline */}
-          <Typography sx={{ maxWidth: 900, fontSize: { xs: 16, md: 18 }, color: 'rgba(255,255,255,.86)' }}>
+          <Typography sx={{ maxWidth: 900, fontSize: { xs: 16, md: 18 }, color: 'rgba(255,255,255,.86)', whiteSpace: 'pre-line' }}>
             {t.sub}
           </Typography>
 
@@ -108,7 +108,10 @@ export default function Hero() {
 
           {/* CTAs */}
           <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2}>
-            <Button href={mailHref} variant="contained" color="secondary" size="large" aria-label={t.ctaPrimary}>
+            {/* <Button href={mailHref} variant="contained" color="secondary" size="large" aria-label={t.ctaPrimary}>
+              {t.ctaPrimary}
+            </Button> */}
+            <Button href="/contact" variant="contained" color="secondary" size="large" aria-label={t.ctaPrimary}>
               {t.ctaPrimary}
             </Button>
             <Button component="a" href="/projects" variant="outlined" size="large" sx={{ color: '#fff', borderColor: 'rgba(255,255,255,.5)' }}>
