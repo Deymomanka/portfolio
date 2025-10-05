@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Box, Typography } from '@mui/material';
 import Button from '@mui/material/Button'; // Material-UIのButtonコンポーネントをインポート
 import { useForm, ValidationError } from '@formspree/react';

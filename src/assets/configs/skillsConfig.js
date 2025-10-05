@@ -2,8 +2,6 @@ import {
   SiPython,
   SiPostgresql,
   SiDocker,
-  SiRedis,
-  SiReact,
   SiScipy,
   SiClaude,
   SiLooker,
@@ -22,10 +20,6 @@ import { GrMysql } from "react-icons/gr";
 import { FaGitAlt, FaGithub, FaGitlab, FaRProject, FaDatabase, FaKaggle, FaFlask} from "react-icons/fa";
 import { VscVscode } from "react-icons/vsc";
 import React from "react";
-import StorageIcon from "@mui/icons-material/Storage";
-import QueryStatsIcon from "@mui/icons-material/QueryStats";
-import TerminalIcon from "@mui/icons-material/Terminal";
-import CloudIcon from "@mui/icons-material/Cloud";
 
 const ICON_SIZE = 40;
 

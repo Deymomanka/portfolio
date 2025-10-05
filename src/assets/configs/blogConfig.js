@@ -1,8 +1,6 @@
 import React from 'react';
 import { AiFillGithub } from "react-icons/ai";
-import { SiMedium } from "react-icons/si";
 import { PiArticleNyTimesLight } from "react-icons/pi";
-import fastapiSklearn from "../images/fastapi_sklearn.png";
 import dataenlogo from "../images/dataenlogo.png";
 
 const blogConfig = [

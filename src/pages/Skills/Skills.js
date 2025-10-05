@@ -144,13 +144,7 @@ export default function Skills() {
           </Box>
         </Section>
       </Container>
-
-
-
-
     </section>
-
-
   );
 }
 

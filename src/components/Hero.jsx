@@ -42,10 +42,10 @@ const UI = {
 export default function Hero() {
   const [lang] = useLang();
   const t = UI[lang] || UI.en;
-  const EMAIL = process.env.EMAIL || '';
-  const mailHref = EMAIL
-    ? withUtm(`mailto:${EMAIL}?subject=${encodeURIComponent(t.subject)}`, 'hero_cta')
-    : '#';
+  // const EMAIL = process.env.EMAIL || '';
+  // const mailHref = EMAIL
+  //   ? withUtm(`mailto:${EMAIL}?subject=${encodeURIComponent(t.subject)}`, 'hero_cta')
+  //   : '#';
 
   return (
     <Box

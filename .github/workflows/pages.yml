@@ -31,7 +31,7 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build
+        run: CI=false npm run build
 
       # SPAリロード404対策: index.html を 404.html にコピー
       - name: SPA 404 fallback

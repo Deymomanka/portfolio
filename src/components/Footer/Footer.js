@@ -26,13 +26,13 @@ export default function Footer() {
   const t = COPY[lang] || COPY.en;
 
 
-  const EMAIL = process.env.EMAIL || '';
+  // const EMAIL = process.env.EMAIL || '';
 
-  const emailHref = useMemo(() => {
-    const subject = encodeURIComponent(t.subject);
-    if (!EMAIL) return '#';
-    return withUtm(`mailto:${EMAIL}?subject=${subject}`, 'footer_cta');
-  }, [EMAIL, t.subject]);
+  // const emailHref = useMemo(() => {
+  //   const subject = encodeURIComponent(t.subject);
+  //   if (!EMAIL) return '#';
+  //   return withUtm(`mailto:${EMAIL}?subject=${subject}`, 'footer_cta');
+  // }, [EMAIL, t.subject]);
 
   return (
     <Box sx={{ bgcolor: 'primary.main', color: '#fff', mt: 6 }}>
